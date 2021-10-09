@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{ site.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% include head_include.html %}
-  </head>
-  <body>
-      <div class="container-fluid">
-        {% include navbar.html %}
+
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% include head_include.html %}
+</head>
+
+<body>
+  <div class="row">
+    {% include navbar.html %}
+  </div>
+  <div class="container mt-5 mb-5">
+    <div class="row hero-banner">
+      <div class="col-md-10">
+        <h1 class="hero-title">Hey! I'm Hardik</h1>
+        <p class="hero-subtitle">I'm a Java developer and like to write code for Liferay, Angular and Spring Boot. I love learning new things and sharing my discoveries with others. You can read my blog, learn more about me, or get in touch.</p>
       </div>
-      {% include script.html %}
-  </body>
+      <div class="col-md-2 d-none d-md-block">
+        <img src="/assets/images/hero_image.jpg" alt="Hardik Jogani" class="img-fluid rounded">
+      </div>
+      </div>
+    </div>
+  </div>
+  {% include script.html %}
+</body>
+
 </html>
