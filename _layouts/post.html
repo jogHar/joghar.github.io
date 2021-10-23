@@ -1,0 +1,14 @@
+---
+layout: default
+title: page.title
+---
+
+<div class="joghar container">
+    <div class="mt-5">
+        <h2 class="fw-bold">{{page.title}}</h2>
+    </div>
+    <div class="mb-2">
+        {% include post_info.html %}
+    </div>
+    {{page.content}}
+</div>

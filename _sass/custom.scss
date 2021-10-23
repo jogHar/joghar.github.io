@@ -1,18 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
+.joghar {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.hero-banner {
-  .hero-title {
+.hero {
+  #{&} &-title {
     font-family: "Balsamiq Sans", cursive;
     font-weight: bold;
   }
-  .hero-subtitle {
+  #{&} &-subtitle {
     font-family: "Balsamiq Sans", cursive;
   }
 }
 
 .post-excerpt {
   margin-bottom: 4rem;
+
+  a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
