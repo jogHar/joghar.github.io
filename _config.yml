@@ -1,11 +1,10 @@
 title: Hardik Jogani
 email: joganihardik57@gmail.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://joghar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/"
+url: "https://joghar.github.io"
+github_link: https://github.com/joghar/
+linkedin_link: https://in.linkedin.com/in/joghar
 
-# Build settings
 plugins:
   - jekyll-feed
 
@@ -16,6 +15,6 @@ sass:
 feed:
   path: rss.xml
 
-permalink: /:year/:month/:day/:title
+permalink: /blog/:title
 
 excerpt_separator: <!--more-->
