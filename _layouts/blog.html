@@ -4,7 +4,7 @@ layout: default
 
 <div class="joghar container mt-5">
   <h1 class="fw-bold">All Blog Posts</h1>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts %}
   <div class="row post-excerpt">
     <div class="col-md-3">
       {% if post.thumbnail %}
