@@ -29,11 +29,33 @@
 .footer-links {
   text-align: center;
   li {
-    display:inline;
+    display: inline;
     margin-right: 2rem;
   }
   a {
     color: white;
     text-decoration: none;
+  }
+}
+
+.comment {
+  list-style: none;
+  margin-bottom: 1rem;
+  .commenter {
+    gap: 1rem;
+    align-items: center;
+    .user-avatar {
+      width: 50px;
+      border-radius: 50%;
+    }
+
+    .username {
+      color: black;
+      font-weight: bold;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }

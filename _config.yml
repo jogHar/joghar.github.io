@@ -16,5 +16,6 @@ feed:
   path: rss.xml
 
 permalink: /blog/:title
+issues_repo: joghar/joghar.github.io
 
 excerpt_separator: <!--more-->

@@ -5,6 +5,7 @@ date: 2021-10-29 12:39:00 +0530
 categories: html
 author: hardik
 thumbnail: /assets/images/post/useful_html_tags.jpg
+comments_id: 2
 ---
 
 These tags are easy to use in developer life, but the developer doesn't know or not use them. so, In this article I'll describe some of the useful HTML tags. <!--more-->

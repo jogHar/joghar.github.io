@@ -11,4 +11,10 @@ title: page.title
         {% include post_info.html %}
     </div>
     {{page.content}}
+    <hr>
+    <div>
+        {% if page.comments_id %}
+            {% include comments.html issue_id=page.comments_id %}
+        {% endif %}
+    </div>
 </div>

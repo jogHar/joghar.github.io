@@ -5,6 +5,7 @@ date: 2021-10-23 16:39:00 +0530
 categories: liferay
 author: hardik
 thumbnail: /assets/images/post/noti_in_liferay.png
+comments_id: 1
 ---
 
 In this post, I am going to talk about notification feature and how to create custom notification in Liferay.
