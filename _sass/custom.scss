@@ -25,3 +25,15 @@
     }
   }
 }
+
+.footer-links {
+  text-align: center;
+  li {
+    display:inline;
+    margin-right: 2rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
