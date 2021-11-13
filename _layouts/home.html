@@ -22,9 +22,9 @@
   <div class="row post-excerpt">
     <div class="col-md-3">
       {% if post.thumbnail %}
-      <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{ post.title }}" class="img-fluid rounded" style="height: 151px;"></a>
+      <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
       {% else %}
-      <a href="{{post.url}}"><img src="/assets/images/dummy.jpg" alt="{{ post.title }}" class="img-fluid rounded" style="height: 151px;"></a>
+      <a href="{{post.url}}"><img src="/assets/images/dummy.jpg" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
       {% endif %}
     </div>
     <div class="col-md-9">
