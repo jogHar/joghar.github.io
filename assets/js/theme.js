@@ -1,4 +1,4 @@
-const toggleSwitch = document.getElementById('cb5');
+const toggleSwitch = document.getElementById('checkbox');
 
 function switchTheme(e) {
     if (e.target.checked) {
