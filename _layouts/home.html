@@ -12,7 +12,7 @@
         get in touch.</p>
     </div>
     <div class="col-md-2 d-none d-md-block">
-      <img src="/assets/images/hero_image.jpg" alt="Hardik Jogani" class="img-fluid rounded">
+      <img loading="lazy" src="/assets/images/hero_image.jpg" alt="Hardik Jogani" class="img-fluid rounded">
     </div>
   </div>
 </div>
@@ -22,9 +22,9 @@
   <div class="row post-excerpt">
     <div class="col-md-3">
       {% if post.thumbnail %}
-      <a href="{{post.url}}"><img src="{{post.thumbnail}}" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
+      <a href="{{post.url}}"><img loading="lazy" src="{{post.thumbnail}}" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
       {% else %}
-      <a href="{{post.url}}"><img src="/assets/images/dummy.jpg" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
+      <a href="{{post.url}}"><img loading="lazy" src="/assets/images/dummy.jpg" alt="{{ post.title }}" class="img-fluid rounded thumb"></a>
       {% endif %}
     </div>
     <div class="col-md-9">
