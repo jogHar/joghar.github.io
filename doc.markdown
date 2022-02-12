@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Document | Hardik Jogani
+title: Notes | Hardik Jogani
 permalink: /doc
 ---
 
-- [Ubuntu](/doc/ubuntu)
+- [Notes](https://hardikjogani.notion.site/Notes-0a076c04218f451c8132ec9830689566)
