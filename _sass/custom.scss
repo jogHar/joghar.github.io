@@ -142,3 +142,9 @@ input:checked + .slider:before {
   color: var(--font-color);
   background-color: var(--bg-color);
 }
+
+.post-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
