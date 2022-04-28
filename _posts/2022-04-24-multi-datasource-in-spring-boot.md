@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mutli datasource in spring boot
-date: 2022-04-23 00:00:00 +0530
+date: 2022-04-24 14:00:00 +0530
 categories: spring-boot
 author: hardik
 thumbnail: /assets/images/post/boot-multi-datasource.jpg
