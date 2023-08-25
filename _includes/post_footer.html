@@ -20,7 +20,7 @@
     {% assign words = post.content | strip_html | number_of_words %}
     {% if words < 200 %} 1 min {% else %} {{ words | divided_by:180.0 | ceil }} mins {% endif %}
   </div>
-  <div>
+  <!-- <div>
     {% if post.author %}
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person"
       viewBox="0 0 16 16">
@@ -29,5 +29,5 @@
     </svg>
     {{site.data.author[post.author].name}}
     {% endif %}
-  </div>
+  </div> -->
 </div>
