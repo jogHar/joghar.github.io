@@ -4,7 +4,7 @@ title: Useful HTML tags
 date: 2021-10-29 12:39:00 +0530
 categories: html
 author: hardik
-thumbnail: /assets/images/post/useful_html_tags.jpg
+thumbnail: /assets/images/post/useful_html_tags.png
 comments_id: 2
 ---
 
