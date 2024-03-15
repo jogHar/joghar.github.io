@@ -5,8 +5,8 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
-# gem "jekyll", "~> 4.2.0"
-gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
+gem "jekyll", "~> 4.2.0"
+# gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
