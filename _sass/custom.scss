@@ -12,9 +12,9 @@ body {
   color: var(--font-color);
 }
 
-input {
-  background-color: var(--bg-color);
-  color: var(--font-color);
+input, textarea {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
 }
 
 .joghar {
