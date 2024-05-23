@@ -12,6 +12,11 @@ body {
   color: var(--font-color);
 }
 
+input {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
 .joghar {
   max-width: 1000px;
   margin: 0 auto;
