@@ -4,7 +4,7 @@ title: "Exception Handling in Java: Dealing with Errors Gracefully"
 date: 2024-07-06 16:00:00 +0530
 categories: exception
 author: hardik
-thumbnail:
+thumbnail: 
 comments_id: 5
 ---
 
